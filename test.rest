@@ -1,0 +1,5 @@
+POST http://localhost:3000/api/auth
+
+###
+POST http://localhost:3000/api/mahasiswa
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyIjp7ImlkIjoxLCJ1c2VybmFtZSI6ImNvYmEiLCJwYXNzd29yZCI6IjEyMzQ1In0sImlhdCI6MTY1ODU0MDA1OSwiZXhwIjoxNjU4NTQzNjU5fQ.pXIst7uFQESyOLdqBahMr2ry8pmlzl-GhFbobJTNooY

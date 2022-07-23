@@ -1,0 +1,32 @@
+1. Buat sebuah proses autentikasi menggunakan jsonwebtoken
+- salin token yang didapat untuk login
+- gunakan token pada Header saat mengirimkan data, format: `Bearer token`
+
+2. Buatlah sebuah API untuk mengelola data mahasiswa dengan fungsi
+- user dapat melihat data
+- user dapat menambahkan data
+- user dapat mengubah data
+- user dapat menghapus data
+
+Tools yang dibutuhkan
+- NodeJS
+- Postman => gunakan untuk menguji API apakah berhasil menerima atau mengirim data
+- MongoDB Compass (opsional)
+
+Pada project ini sudah terdapat package / module `express` dan `mongoose`,
+Sebelum memulai ketikkan terlebih dahulu perintah `npm install` pada terminal
+Untuk menjalankan project, ketik `npm run dev`
+
+- express => mengatur membuat logic di server
+- mongoose => mengelola urusan ke database mongodb
+Silahkan download dan install 
+- MongoDB versi local dengan URL `localhost:27017`, atau
+- MongoDB Atlas (database online dari MongoDB), dengan catatan harus membuat akun terlebih dahulu
+
+Struktur Folder
+- db => connection => untuk konfigurasi agar aplikasi dapat terhubung ke database mongodb
+- models => untuk membuat Schema data
+- routes => untuk membuat Routes agar data dapat meng-handle URL yang dapat diakses
+
+Selanjutnya silahkan cek instruksi pada komentar masing-masing file
+
